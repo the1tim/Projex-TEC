@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    margin: 0 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 70px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+#redtxt {
+    color: red;
+    text-decoration: none;
+}
+
+#blacktxt {
+    color: black;
+    text-decoration: none;
+}
+
+.GAQ {
+    padding: 15px 20px;
+    color: white;
+    border: 0;
+    background-color: red;
+    font-size: 1.2rem;
+}
