@@ -11,6 +11,7 @@ header {
     font-size: 25px;
     color: black;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #redtxt {
@@ -24,9 +25,91 @@ header {
 }
 
 .GAQ {
-    padding: 15px 20px;
+    padding: 15px 25px;
     color: white;
     border: 0;
     background-color: red;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.image {
+    position: relative;
+    /* background: #04207e; */
+}
+
+.image img {
+    width: 100%;
+    /* opacity: 0.8; */
+}
+
+.image .blue-filter {
+    position: absolute;
+    background-color: #04207e30;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 824.24px;
+}
+
+.navofimg{
+    position: relative;
+    margin: 30px 0px;
+}
+
+#txtonimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 200px 500px;
+    width: 45%;
+}
+
+#Discover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 40px;
+    color: white;
+    border: 0;
+    background-color: red;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 550px 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#indserv {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 150px 0px;
+    color: rgb(5, 5, 80);
+}
+
+#bluebox {
+    background-color: rgb(5, 5, 80);
+    padding: 30px 30px;
+    width: 25%;
+    color: white;
+    border: 0;
     font-size: 1.2rem;
+    text-decoration: none;
+    margin: -50px 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#redbox {
+    background-color: red;
+    padding: 45px 30px;
+    width: 9%;
+    color: white;
+    border: 0;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: -125px 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
