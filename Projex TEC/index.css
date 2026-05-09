@@ -90,26 +90,68 @@ header {
     color: rgb(5, 5, 80);
 }
 
-#bluebox {
-    background-color: rgb(5, 5, 80);
-    padding: 30px 30px;
-    width: 25%;
-    color: white;
-    border: 0;
-    font-size: 1.2rem;
-    text-decoration: none;
-    margin: -50px 400px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.presentation-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 40px 200px;
+
+    .description {
+        display: flex;
+        background-color: rgb(5, 5, 80);
+        padding: 50px 100px;
+        width: 40%;
+        height: 20vh;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 200px;
+    }
+
+    .header {
+        display: flex;
+        background-color: red;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        height: 21vh;
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
 }
 
-#redbox {
-    background-color: red;
-    padding: 45px 30px;
-    width: 9%;
-    color: white;
-    border: 0;
-    font-size: 2rem;
-    text-decoration: none;
-    margin: -125px 1000px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.mission-wrapper {
+    display: flex;
+    padding: 0px 400px;
+    margin: 0px -100px;
+    .mission-item {
+        color: rgb(13, 13, 73);
+
+        .header {
+            font-size: xx-large;
+        }
+
+        .more {
+            color: red;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .mission-txt {
+            font-size: x-large;
+            width: 60%;
+        }
+    }
 }
+
+#img2 {
+    width: 100%;
+    padding: 100px 0px;
+}
+
