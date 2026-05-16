@@ -174,8 +174,8 @@ header {
 
         display: flex;
         .img3 {
-        width: 100%;
-        /* margin: -100px 0px; */
+            width: 100%;
+            /* margin: -100px 0px; */
         }
 
         .img4 { 
@@ -190,6 +190,11 @@ header {
             width: 25%;
             height: 40%;
         }
+    }
+
+    .services {
+        position: absolute;
+
     }
 }
 
