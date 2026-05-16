@@ -90,6 +90,10 @@ header {
     color: rgb(5, 5, 80);
 }
 
+.services-container {
+    margin: 100px 0;
+}
+
 .presentation-wrapper {
     display: flex;
     gap: 20px;
@@ -101,13 +105,12 @@ header {
         background-color: rgb(5, 5, 80);
         padding: 50px 100px;
         width: 40%;
-        height: 20vh;
+        height: 25vh;
         align-items: center;
         color: white;
         font-size: 1.5rem;
         text-decoration: none;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: 200px;
     }
 
     .header {
@@ -117,7 +120,7 @@ header {
         justify-content: center;
         align-items: center;
         padding: 50px;
-        height: 21vh;
+        height: 25vh;
         color: white;
         font-size: 2rem;
         text-decoration: none;
@@ -150,8 +153,68 @@ header {
     }
 }
 
-#img2 {
-    width: 100%;
-    padding: 100px 0px;
+.under-mission-wrapper {
+
+    .img2 {
+        width: 100%;
+        display: flex;
+        position: absolute;
+    }
+    
+    .img2txt {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        display: flex;
+        position: absolute;
+    }
+
+    .bluebox2 {
+        background-color: blue;
+
+        display: flex;
+        .img3 {
+        width: 100%;
+        /* margin: -100px 0px; */
+        }
+
+        .img4 { 
+            display: flex;
+            width: 25%;
+            height: 40%;
+            /* margin: 150px -1650px; */
+        }
+
+        .img5 {
+            display: flex;
+            width: 25%;
+            height: 40%;
+        }
+    }
 }
+
+.blue-filter2 {
+    position: relative;
+    background-color: #03144e62;
+    width: 110%;
+    height: 639px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.card {
+  width: 25%; /* Ширина карточки */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Чтобы паддинги не увеличивали общую ширину */
+}
+
+
+
 
