@@ -252,6 +252,7 @@ header {
 
 .cardbackground {
     background: rgb(3, 3, 83);
+    height: 1500px;
 
     .cards-container {
         position: relative;
@@ -267,7 +268,7 @@ header {
         margin: 200px 0px;
         padding: 20px;
         width: 400px;
-        height: 300px;
+        height: 200px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -282,14 +283,46 @@ header {
     }
 
     .Contact {
-        padding: 15px 25px;
-        border: 100px;
+        color: black;
         border-color: red;
         background-color: white;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
         text-decoration: none;
-        margin: 5px 0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        margin: 0px 100px;
+        padding: 15px 40px;
+        width: 1000%;
+    }
+
+    .mail {
+        display: flex;
+    }
+
+    .icon_mail {
+        position: absolute;
+        margin: 17.5px 260px;
+    }
+
+    .ViewPROJ {
+    padding: 21px 38.203px;
+    color: white;
+    border: 0;
+    background-color: red;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .Clients {
+        color: white;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .Clientsimg {
+        width: 100%;
     }
 }
 
