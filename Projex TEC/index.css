@@ -210,7 +210,7 @@ header {
     display: flex;
     position: relative;
     width: 100%;
-    height: 49vh;
+    height: 70vh;
 
     background: url("./za\ wod.png");
 
@@ -284,7 +284,7 @@ header {
 
     .Contact {
         color: black;
-        border-color: red;
+        border: 2px solid red;
         background-color: white;
         font-size: 1.8rem;
         text-decoration: none;
@@ -326,9 +326,94 @@ header {
     }
 }
 
+#bluetxt {
+    color: rgb(3, 3, 83);
+    margin: 70px 170px;
+}
 
+.insert2 {
+    width: 25%;
+    position: absolute;
+}
 
+.blue-filter3 {
+        position: absolute;
+        width: 474px;
+        height: 613px;
+        background: #02025e7c;
+        z-index: 2;
+}
 
+.dohabs{
+    position: relative;
+    z-index: 3;
+    color: white;
+    padding: 5px 63px; 
+}
 
+.small-line {
+    width: 434px;     
+    height: 0.5px;      
+    background-color: white;
+    margin: 20px 20px;
+    position: relative;
+    z-index: 3;
+}
 
+.infabs {
+ color: white;
+ z-index: 3;
+ position: relative;
+ padding: 5px 21px;
+}
+
+#ViewMore3{
+    position: relative;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+    margin: 360px 350px;
+    display: flex;
+}
+
+#ViewMore4{
+    position: relative;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+    margin: 320px 350px;
+    display: flex;
+}
+
+#h1abs2 {
+    position: relative;
+    z-index: 3;
+    color: white;
+    padding: 5px 62.5px;
+}
+
+.h1abs {
+    position: relative;
+    z-index: 3;
+    color: white;
+    padding: 5px 62.5px;
+}
+
+#RedViewMore{
+    position: relative;
+    z-index: 3;
+    color: red;
+    text-decoration: none;
+    margin: 335px 350px;
+    display: flex;
+}
+
+#ViewMore1 {
+    position: relative;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+    margin: 360px 350px;
+    display: flex;
+}
 
